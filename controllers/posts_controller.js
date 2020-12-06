@@ -1,3 +1,6 @@
 module.exports.posts = function(req,res){
-    res.end('<h1>Posts</h1>');
+    return res.render('posts',{
+        title: "Posts"
+    });
+    // res.end('<h1>Posts</h1>');
 }
