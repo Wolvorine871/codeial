@@ -1,0 +1,14 @@
+header {
+  background-color: navy;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 8vh; }
+  header ul {
+    list-style: none; }
+    header ul li {
+      float: right; }
+      header ul li a {
+        color: white;
+        text-align: center;
+        margin: 1em; }
